@@ -3,7 +3,6 @@ project(AuthenticationProgram)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# Set compiler flags
 if (${CMAKE_CXX_COMPILER_ID} MATCHES "GNU" OR ${CMAKE_CXX_COMPILER_ID} MATCHES "Clang")
     set(CMAKE_CXX_FLAGS "-Wall -Wextra")
     set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3")
@@ -20,7 +19,6 @@ include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-# Source files
 set(SOURCES
         ${PROJECT_SOURCE_DIR}/src/main.cpp
         ${PROJECT_SOURCE_DIR}/src/functions.cpp
@@ -38,8 +36,6 @@ set(HEADERS
 
 qt5_wrap_cpp(HEADERS_MOC ${HEADERS})
 
-# Set target
 add_executable(AuthenticationProgram ${SOURCES} ${HEADERS_MOC})
 
-# Link with libraries
 target_link_libraries(AuthenticationProgram Qt5::Widgets)

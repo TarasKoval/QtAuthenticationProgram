@@ -44,7 +44,7 @@ void inputWindow::timeVectorIsReady() {
             QMessageBox::about(this, "Message", "Welcome!");
             close();
         } else {
-            QMessageBox::warning(this, "Message", "Password incorect!");
+            QMessageBox::warning(this, "Message", "Password incorrect!");
             close();
         }
     }

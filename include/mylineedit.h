@@ -1,5 +1,5 @@
-#ifndef MYLINEEDIT_H
-#define MYLINEEDIT_H
+#ifndef MY_LINE_EDIT_H
+#define MY_LINE_EDIT_H
 
 #include<QtWidgets>
 #include<QDebug>
@@ -32,4 +32,4 @@ public slots:
     void keyReleased(QKeyEvent *event);
 };
 
-#endif // MYLINEEDIT_H
+#endif // MY_LINE_EDIT_H

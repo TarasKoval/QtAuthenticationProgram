@@ -1,5 +1,5 @@
-#ifndef INPUTWINDOW_H
-#define INPUTWINDOW_H
+#ifndef INPUT_WINDOW_H
+#define INPUT_WINDOW_H
 
 #include <QtWidgets>
 #include <QMessageBox>
@@ -27,4 +27,4 @@ signals:
     void windowCloses();
 };
 
-#endif // INPUTWINDOW_H
+#endif // INPUT_WINDOW_H

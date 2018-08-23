@@ -1,5 +1,5 @@
-#ifndef RRORELCALC_FUNCTIONS_H
-#define RRORELCALC_FUNCTIONS_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 #include <vector>
 #include <zconf.h>
@@ -28,4 +28,4 @@ bool differenceByAccidentalReasons(const std::vector<ulong> &inputData,
 
 bool fullCheck(const std::vector<ulong> &perfectData, const std::vector<ulong> &inputData);
 
-#endif //RRORELCALC_FUNCTIONS_H
+#endif //FUNCTIONS_H

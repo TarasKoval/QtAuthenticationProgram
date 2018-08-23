@@ -1,5 +1,5 @@
-#ifndef STARTWINDOW_H
-#define STARTWINDOW_H
+#ifndef START_WINDOW_H
+#define START_WINDOW_H
 
 #include <QtWidgets>
 #include "inputwindow.h"
@@ -20,4 +20,4 @@ public slots:
     void openInputWindow();
 };
 
-#endif // STARTWINDOW_H
+#endif // START_WINDOW_H
