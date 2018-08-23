@@ -1,4 +1,4 @@
-#include "include/mylineedit.h"
+#include "mylineedit.h"
 
 myLineEdit::myLineEdit(QWidget *obj) :
         QLineEdit(obj), timeTemp(0), keyPressesCounter(2), timeVector(new std::vector<ulong>) {}

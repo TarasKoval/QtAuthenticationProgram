@@ -1,4 +1,4 @@
-#include "include/startwindow.h"
+#include "startwindow.h"
 
 startWindow::startWindow(QWidget *obj) : QMainWindow(obj),
                                          buttonLogIn(nullptr), buttonSignUp(nullptr), login(nullptr) {

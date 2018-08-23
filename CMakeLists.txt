@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.5.1)
 project(AuthenticationProgram)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${AuthenticationProgram_SOURCE_DIR}/build)
-
 set(CMAKE_CXX_STANDARD 11)
 
 # Set compiler flags
@@ -17,6 +15,7 @@ endif ()
 find_package(Qt5Widgets REQUIRED)
 
 include_directories(
+        include
         ${CMAKE_CURRENT_BINARY_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}
 )

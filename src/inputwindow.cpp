@@ -1,4 +1,4 @@
-#include "include/inputwindow.h"
+#include "inputwindow.h"
 
 inputWindow::inputWindow(QWidget *obj, QString rhsFileName, bool rhsCreateNewUser) :
         QMainWindow(obj), fileName(std::move(rhsFileName)), createNewUser(rhsCreateNewUser),
